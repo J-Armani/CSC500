@@ -64,7 +64,7 @@ class ShoppingCart:
                 if item.item_description != 'none':
                     description_input = get_item_description('Type the new description or press enter to leave it unchanged: ', True)
                     if description_input:
-                        item.item_description
+                        item.item_description = description_input
 
                 if item.item_price != 0:
                     price_input = get_item_price('Type the new item price or press enter to leave it unchanged: ', True)
