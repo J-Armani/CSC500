@@ -273,6 +273,7 @@ def main():
     
     # Part 2: prompt the user for two items and create two ItemToPurchase objects
     # This array holds the two ItemToPurchase objects. the enter_item() function returns an ItemToPurchase object wach time it is called
+    print('PART 1 REQUIREMENTS - INCLUDED FOR COMPLETENESS')
     itemsToPurchase = []
 
     for i in range(2):
